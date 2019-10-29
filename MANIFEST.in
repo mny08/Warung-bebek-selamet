@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include warungbebekselamet *.css
+recursive-include warungbebekselamet *.csv
+recursive-include warungbebekselamet *.html
+recursive-include warungbebekselamet *.ico
+recursive-include warungbebekselamet *.js
+recursive-include warungbebekselamet *.json
+recursive-include warungbebekselamet *.md
+recursive-include warungbebekselamet *.png
+recursive-include warungbebekselamet *.py
+recursive-include warungbebekselamet *.svg
+recursive-include warungbebekselamet *.txt
+recursive-exclude warungbebekselamet *.pyc
